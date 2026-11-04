@@ -1,0 +1,10 @@
+[plugin]
+name = "Recensioni e punteggi"
+version = "1.0"
+author = "Pozzo Launcher"
+icon = "⭐"
+description = "Punteggi aggregati nel dettaglio di ogni gioco: Metacritic, OpenCritic e recensioni degli utenti Steam."
+api = 1
+min_app = "0.7.1"
+load = "lazy"
+permissions = ["rete:opencritic-api.p.rapidapi.com", "rete:store.steampowered.com", "libreria:lettura", "impostazioni"]

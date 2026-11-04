@@ -1,0 +1,13 @@
+[plugin]
+name = "Notizie videogiochi"
+version = "1.0"
+author = "Pozzo Launcher"
+icon = "📰"
+description = "Le ultime notizie dei produttori (Nintendo, PlayStation, Xbox, Valve, Capcom, Sega e altri) e dei principali siti, raccolte da feed RSS/Atom."
+long_description = "Raccoglie in un'unica pagina le notizie dei feed RSS e Atom delle case videoludiche e dei siti di settore. Ogni notizia è classificata (annuncio, patch, DLC, uscita), si può filtrare per casa e cercare per testo. I feed sono tenuti in cache sul disco e scaricati al massimo ogni 30 minuti, nel rispetto dei siti."
+how_it_works = "1. Installa l'estensione e riavvia Pozzo Launcher.\n2. Apri la pagina Notizie dalla barra laterale.\n3. Da Fonti puoi disattivare i feed che non ti interessano o aggiungerne di tuoi (URL http/https)."
+features = ["Feed RSS e Atom raggruppati per casa produttrice", "Classificazione automatica: annuncio, patch, DLC, uscita", "Cache su disco con ETag e rispetto dei limiti dei siti", "Fonti personalizzabili"]
+api = 1
+min_app = "0.7.1"
+# niente load = "lazy": gs.job («rassegna-settimanale») deve partire con l'app
+permissions = ["rete:blog.playstation.com", "rete:news.xbox.com", "rete:store.steampowered.com", "rete:www.nintendolife.com", "rete:www.nintendo-insider.com", "rete:www.nintendoeverything.com", "rete:www.siliconera.com", "rete:www.gematsu.com", "rete:www.eurogamer.net", "rete:www.gamesindustry.biz", "rete:retrododo.com", "rete:www.everyeye.it", "rete:www.spaziogames.it", "rete:api.steampowered.com", "rete:www.nintendo.co.jp", "rete:eu.finalfantasyxiv.com", "rete:*", "impostazioni", "libreria:lettura", "notifiche"]

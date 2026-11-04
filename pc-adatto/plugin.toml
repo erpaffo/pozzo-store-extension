@@ -1,0 +1,13 @@
+[plugin]
+name = "Il mio PC ce la fa?"
+version = "1.0"
+author = "Pozzo Launcher"
+icon = "💻"
+description = "Dice per ogni gioco se il tuo PC è abbastanza potente e, per le console emulate, quali impostazioni usare."
+long_description = "Rileva CPU, scheda video e RAM del tuo computer e li confronta con i requisiti del gioco: per i giochi Steam usa i requisiti minimi e consigliati dello store, per i giochi emulati una tabella di requisiti per console con i consigli sulle impostazioni dell'emulatore (Vulkan, risoluzione interna, ecc.)."
+how_it_works = "1. Installa l'estensione e riavvia Pozzo Launcher.\n2. Apri la scheda di un gioco: compare il verdetto (ok, serve ritoccare le impostazioni, insufficiente).\n3. Il verdetto è una stima basata sul nome dei componenti: se non riesce a riconoscerli lo dice."
+features = ["Rilevamento automatico di CPU, GPU e RAM", "Requisiti Steam minimi e consigliati", "Consigli sulle impostazioni degli emulatori"]
+permissions = ["rete:store.steampowered.com", "libreria:lettura", "avvio"]  # avvio: PowerShell per leggere CPU/GPU/RAM
+api = 1
+min_app = "0.7.1"
+load = "lazy"

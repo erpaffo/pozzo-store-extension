@@ -1,0 +1,13 @@
+[plugin]
+name = "Sconti e bundle"
+version = "1.0"
+author = "Pozzo Launcher"
+icon = "🏷️"
+description = "Gli sconti sui giochi della tua lista dei desideri, i bundle attivi che contengono giochi che ti interessano o che possiedi già, e i giochi gratis da prendere ora."
+long_description = "Raccoglie in un'unica pagina le offerte che contano davvero per te: gli sconti sui titoli della lista dei desideri (con il minimo storico evidenziato), i bundle in corso su IsThereAnyDeal, segnalati quando contengono un gioco che segui o che hai già, e l'elenco dei giochi gratuiti del momento."
+how_it_works = "1. Installa l'estensione e riavvia Pozzo Launcher.\n2. Per i bundle serve la chiave gratuita di IsThereAnyDeal in Impostazioni › Lista dei desideri.\n3. Apri la pagina Sconti e bundle dalla barra laterale: gli sconti vengono dalla lista dei desideri, i bundle e i giochi gratis si aggiornano al massimo ogni 6 ore."
+features = ["Sconti sulla lista dei desideri, con indicazione del minimo storico", "Bundle attivi su IsThereAnyDeal, con i giochi che contengono e la scadenza", "Bundle marcati quando contengono un gioco che segui o che possiedi", "Giochi gratuiti del momento"]
+api = 1
+min_app = "0.7.1"
+load = "lazy"
+permissions = ["rete:api.isthereanydeal.com", "rete:widget.allkeyshop.com", "rete:feed.phenx.de", "rete:www.gamerpower.com", "rete:store.steampowered.com", "libreria:lettura", "impostazioni"]
